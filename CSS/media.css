@@ -1,0 +1,80 @@
+
+@media screen and (max-width:568px) {
+  .flex-container {
+
+    display:flex;
+    flex-wrap:wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+flex-flow:column;
+
+
+  }
+
+.flex-item1{
+  flex-shrink: 0;
+flex-flow:column;
+justify-content: flex-end;
+  flex-wrap: wrap;
+align-items: flex-end;
+}
+.flex-item2{
+  flex-shrink: 0;
+flex-flow:column;
+fle
+justify-content: flex-end;
+align-items: flex-end;
+}
+
+.pep {
+  flex-wrap: wrap;
+}
+
+
+
+.nav {
+  flex-wrap: wrap;
+}
+.nav ul li {
+  width: 50%;
+}
+.list{
+	display:flex;
+
+}
+.flexform {
+  flex-wrap:wrap;
+}
+.row {
+  display:flex;
+}
+
+footer {
+  font-size:1em;
+}
+.flex-container2 {
+  display:flex;
+  flex-shrink: 0;
+flex-flow: row wrap;
+justify-content: center;
+align-items: flex-end;
+}
+
+.flexorder{
+flex-shrink: 0;
+flex-flow: column wrap;
+justify-content: flex-end;
+align-items: flex-end;
+}
+.flextest{
+flex-shrink: 1;
+
+flex-flow: column wrap;
+justify-content: flex-end;
+
+align-items: center;
+}
+.testimony {
+  font-size: 1em;
+}

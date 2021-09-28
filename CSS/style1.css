@@ -1,0 +1,208 @@
+/* Ryan Walker
+  9/26
+  Pizza Parlor Flex*/
+
+	html {
+	  background-image: url(pline.jpg);
+	}
+	body {
+	  border-left: 1px solid rgb(51,51,51);
+	border-right:  1px solid rgb(51,51,51);
+	box-shadow: rgb(51,51,51) 15px 0px 25px,
+	            rgb(51,51,51) -15px 0px 25px;
+	}
+body{
+
+}
+
+.headerimg {
+	display: flex;
+	justify-content: center;
+	max-width: 70%;
+	height:auto;
+	margin:0 auto;
+
+}
+.line
+	{
+		display: flex;
+		justify-content: center;
+		max-width: 50%;
+		height:auto;
+		margin:0 auto;
+
+
+
+
+	}
+
+
+img {
+	width:100%;
+	height: auto;
+
+}
+div.flex-container {
+	background-color: orange;
+	display:flex;
+
+
+}
+.flex-item {
+	width:200px;
+	margin: 10px;
+	border: 3px outset #333;
+	background-color: orange;
+	border-radius: 30px;
+	background: radial-gradient(white, rgb(200, 222, 15), rgb(255, 125, 81));
+	box-shadow: rgba(0,0,0, 0.4) 20px 0px 20px 10px;
+	flex-basis: 0px;
+	flex-grow: 1;
+justify-content: space-around;
+}
+.flex-item1 {
+	min-height: auto;
+	min-width: auto;
+	filter:drop-shadow( 5px 5px 10px rgb(51, 51, 51) ) ;
+
+}
+.flex-item2 {
+	min-height: auto;
+
+}
+.flex-item3 {
+
+}
+
+.roll {
+
+	max-width: 50%;
+	height:auto;
+}
+
+
+form {
+	color: white;
+}
+.flex-container2 {
+	display:flex;
+	background-color:rgb(255, 51, 0);
+}
+.flextest {
+	display: flex;
+	width:100%;
+	margin: 10px;
+	border: 3px outset #333;
+	box-shadow: rgba(0,0,0, 0.4) 20px 0px 20px 10px;
+
+	border-radius: 20px;
+	background: linear-gradient(345deg, rgb(255, 40,0),
+                                      rgb(21, 0, 0) 80%);}
+.testimony {
+	color:white;
+}
+
+aside {
+	font-size: 2em;
+	font-family:"Optima", Georgia, Serif;
+	font-style: oblique;
+}
+
+
+
+
+
+/* Nav Styles */
+
+.nav  {
+	display: flex;
+	width: 100%;
+	box-sizing: border-box;
+	border-style: outset;
+  padding: 10px;
+	margin: 0 -10px;
+align-items: center;
+  background-color: black;
+}
+nav > ul> li{
+	color:white;
+	display:inline;
+	word-spacing: 5px;
+	margin: 0 10px;
+	width:100%;
+
+	list-style-type: none;
+	list-style-position: outside;
+	text-decoration: none;
+	text-align: center;
+}
+.nav li:hover {
+	color:orange;
+  background-color: rgb(231, 231, 231);
+}
+a {text-decoration: none;
+color:white;
+font-size: 2em;border: 2px solid #ff3300;
+text-align: center;}
+#social {
+	background: linear-gradient(345deg, rgb(255, 40,0),
+                                      rgb(21, 0, 0) 80%);
+	list-style-type: none;
+	list-style-position: outside;
+	text-decoration: none;
+	text-align: center;
+}
+
+/* Form */
+
+.flexform {
+	 background-color: whitesmoke;
+	 list-style-type: none;
+	 padding: 20px;
+	 border-radius: 3px;
+ }
+ .row {
+	 display: flex;
+	 justify-content: flex-end;
+	 padding: .5em;
+ }
+ .row > label {
+	 padding: .5em 1em .5em 0;
+	 flex: 1;
+	 color: black;
+ }
+ .row > input {
+	 flex: 2;
+ }
+ .row > input,
+ .row > button {
+	 padding: .5em;
+ }
+ .row > button {
+	background: gray;
+	color: black;
+	border: 0;
+ }
+
+
+/* Foooter */
+footer {          background-color: rgb(53, 98, 42);
+          color: white;
+          display: block;
+      padding: 25px;
+		text-align: center;
+	font-size: 2em;}
+
+
+footer {
+  background: linear-gradient(345deg, rgb(255, 51, 0),
+                                      rgb(0, 0, 0) 80%);
+	box-shadow: rgb(51,51,51) 15px 0px 25px,
+		 rgb(51,51,51) -15px 0px 25px;
+																		 }
+
+  footer::after {
+       clear: both;
+       content: "";
+       display: table;
+    }

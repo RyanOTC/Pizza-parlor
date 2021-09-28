@@ -1,68 +1,129 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <!--
+
+<head>
+  <!--
     Pizza Parlor
  Author:Ryan
      Date:9/26
         Filename: order.html
     -->
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <nav class="toplinks">
-       <ul>
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">Order Online</a></li>
-          <li><a href="#">Menu</a></li>
-          <li><a href="#">Our Location</a></li>
-       </ul>
-    </nav>
+  <meta charset="utf-8">
+  <link href="CSS/style1.css" rel="stylesheet" />
+  <link href="CSS/media.css" rel="stylesheet" />
 
-<div class= "column1">
-  <form method="get" action="thankyou.html">
-    <fieldset>
-      <legend> Order Here </legend>
-    <label for ="fname">
-        Name:
-      <input autofocus type="text" name="fname" required placeholder ="First Name"/>
-      </label>
-      <label for ="lname">
-        Last Name:
-        <input autofocus type="text" name="lname" required placeholder ="Last Name"/>
-      </label>
-      <label for="phone">
-        Phone:
-      <input autofocus type="tel" name="phone" required placeholder ="Phone Num(nnn) nnn-nnnn"/>
-      </label>
-      <label for="select">Choose your Pizza</label>
-      <select id="select" name="select" >
-          <option value="Pepporoni">  </option>
-          <option value=" Cheese">  </option>
-          <option value="Supreme">  </option>
-          <option value=" Olive and Mushroom"> </option>
-          <option value="Canadian Bacon + Pineapple"> </option>
-          <option value=" Alfredo and BBQ Chicken"></option>
-        </select>
-    <label for = "review"> Leave a Review:  <input autofocus type="text" name="review" placeholder ="Write here" >
-</label>
 
-      <input type="submit" value="Submit" />
-    </fieldset>
+
+  <title>Order</title>
+</head>
+
+<body>
+  <header>
+    <img src="images/cheech.jpg" class="headerimg" alt="Cheech Logo" />
+    <div class="nav">
+      <nav>
+        <ul>
+          <li><a class="list" href="#">HOME</a></li>
+          <li><a class="list" href="#">Order </a></li>
+          <li><a class="list" href="menu.html">Menu</a></li>
+          <li><a class="list" href="order.html">Location</a></li>
+
+
+
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+
+  <div class="flex-container2">
+
+
+    <div class="flexorder">
+
+      <form>
+
+
+
+
+        <ul class="flexform">
+
+          <li class="row"> <label for="name">
+              Name: </label>
+            <input autofocus id="name" type="text" name="name" required placeholder="Name" />
+          </li>
+
+          <li class="row"> <label for="email">
+              Email: </label><br>
+            <input id="email" type="text" name="email" required placeholder="@.com" />
+          </li>
+
+          <li class="row"> <label for="phone">
+              Phone:</label><br>
+            <input id="phone" type="tel" name="phone" required placeholder="Phone Num(nnn) nnn-nnnn" />
+          </li>
+
+
+
+
+
+
+          <li class="row"> <label for="select">Choose your Pizza</label>
+            <select id="select" name="select">
+              <option value="pepporoni">Pepporoni </option>
+              <option value=" cheese"> Cheese </option>
+              <option value="supreme"> Supreme</option>
+              <option value=" pizza Rolls"> Pizza Rolls</option>
+              <option value="hawai"> Hawaian</option>
+              <option value=" bbQchicken"> BBG Chicken</option>
+            </select>
+          </li>
+          <li class="row"> <label for="num">Quantity</label>
+            <input id="num" type="number" name="num" placeholder="1">
+          </li>
+
+          <li class="row">
+            <label for="message">Requests</label><textarea id="message" name="notes or review" rows="20" cols="30" placeholder="Write special requests or a review here">
+      </textarea>
+          </li>
+
+          <li class="row"> <input type="submit" value="Submit" /></li>
+        </ul>
       </form>
-  </div>
-
-
-
-<div class = "column2">
-      <div class = "testimony">
-
-
-
-
     </div>
 
 
-  </body>
+
+    <div class="flextest">
+      <div class="testimony">
+        <aside>
+          <p> "This is the best pizza in the whole entire universe and let me tell you I've been around." </p>
+          <p>Hugo Einstein</p>
+          <br>
+          <p> "They have been giving me the experience of great food as well as my family for over five generations. The crust is
+            made to divine perfection. The ceo believes in paying the staff very handsomely and it shows in the commradery and happiness
+            they spread to each other and the guests. "</p>
+          <p> George E. L. F. Nottingham </p>
+        </aside>
+
+        <ul id= "social">
+          <li><a class="list" href="#">Instagram</a></li>
+          <li><a class="list" href="#">Twitter </a></li>
+          <li><a class="list" href="menu.html">Facebook</a></li>
+        </ul>
+
+      </div>
+    </div>
+
+  </div>
+
+
+  <footer id="foot">
+    <h3>Cheech's Pizza Parlor</h3>
+    <p> 9657 E. Jackson. 417-567-8989. 65807.</p>
+  </footer>
+
+</body>
+
 </html>
